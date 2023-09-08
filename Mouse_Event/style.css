@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkblue;
+    color: white;
+    font-family: cursive;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+}
+.Mouse-Event{
+    border: solid bisque 1px;
+    min-width: 180px;
+    min-height: 100px;
+    margin: 40px;
+    position: relative;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    
+}
+.Mouse-Event h4{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    
+}   
+
+@media(max-width:500px){
+    .container{
+        flex-direction: column;
+    }
+}
